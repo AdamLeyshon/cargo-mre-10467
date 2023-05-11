@@ -1,0 +1,5 @@
+[workspace]
+members = ["example-bin", "example-lib"]
+
+[patch."ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git"]
+example-lib = { path = "./example-lib" }

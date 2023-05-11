@@ -1,0 +1,10 @@
+[package]
+name = "example-bin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+example-lib = { git = "ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git" }
+# example-lib = { path = "../example-lib" }
