@@ -1,0 +1,118 @@
+CARGO_LOG=trace cargo build -v | tee trace.txt
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_ALIAS_BUILD", parts: [("alias", 5), ("build", 11)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TERM", parts: [("term", 5)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_NET", parts: [("net", 5)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_HTTP", parts: [("http", 5)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_BUILD", parts: [("build", 5)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::toml] read_manifest; path=/home/aleyshon/source/tcc-src/cargo-ssh-mre/Cargo.toml; source-id=/home/aleyshon/source/tcc-src/cargo-ssh-mre
+[2023-05-11T09:08:52Z DEBUG cargo::core::workspace] find_root - found a root checking exclusion
+[2023-05-11T09:08:52Z DEBUG cargo::core::workspace] find_root - found!
+[2023-05-11T09:08:52Z DEBUG cargo::core::workspace] find_root - is root /home/aleyshon/source/tcc-src/cargo-ssh-mre/Cargo.toml
+[2023-05-11T09:08:52Z DEBUG cargo::core::workspace] find_members - /home/aleyshon/source/tcc-src/cargo-ssh-mre/example-bin/Cargo.toml
+[2023-05-11T09:08:52Z TRACE cargo::util::toml] read_manifest; path=/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-bin/Cargo.toml; source-id=/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-bin
+[2023-05-11T09:08:52Z DEBUG cargo::core::workspace] find_members - /home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib/Cargo.toml
+[2023-05-11T09:08:52Z TRACE cargo::util::toml] read_manifest; path=/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib/Cargo.toml; source-id=/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib
+[2023-05-11T09:08:52Z DEBUG cargo::core::workspace] find_members - /home/aleyshon/source/tcc-src/cargo-ssh-mre/Cargo.toml
+[2023-05-11T09:08:52Z DEBUG cargo::core::workspace] find_root - found a root checking exclusion
+[2023-05-11T09:08:52Z DEBUG cargo::core::workspace] find_root - found!
+[2023-05-11T09:08:52Z DEBUG cargo::core::workspace] find_root - is root /home/aleyshon/source/tcc-src/cargo-ssh-mre/Cargo.toml
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TERM", parts: [("term", 5)] }
+[2023-05-11T09:08:52Z DEBUG cargo::util::rustc] adding rustup info to rustc fingerprint
+[2023-05-11T09:08:52Z DEBUG cargo::util::rustc] reusing existing rustc info cache
+[2023-05-11T09:08:52Z DEBUG cargo::util::rustc] rustc info cache hit
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_RUSTFLAGS", parts: [("target", 5), ("x86_64-unknown-linux-gnu", 12), ("rustflags", 37)] }
+[2023-05-11T09:08:52Z DEBUG cargo::util::rustc] rustc info cache hit
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_RUSTFLAGS", parts: [("target", 5), ("x86_64-unknown-linux-gnu", 12), ("rustflags", 37)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TARGET", parts: [("target", 5)] }
+[2023-05-11T09:08:52Z DEBUG cargo::util::config::target] Got all targets {}
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_RUSTDOCFLAGS", parts: [("target", 5), ("x86_64-unknown-linux-gnu", 12), ("rustdocflags", 37)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_RUNNER", parts: [("target", 5), ("x86_64-unknown-linux-gnu", 12), ("runner", 37)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_RUSTFLAGS", parts: [("target", 5), ("x86_64-unknown-linux-gnu", 12), ("rustflags", 37)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_LINKER", parts: [("target", 5), ("x86_64-unknown-linux-gnu", 12), ("linker", 37)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU", parts: [("target", 5), ("x86_64-unknown-linux-gnu", 12)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_RUNNER", parts: [("target", 5), ("x86_64-unknown-linux-gnu", 12), ("runner", 37)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_RUSTFLAGS", parts: [("target", 5), ("x86_64-unknown-linux-gnu", 12), ("rustflags", 37)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_LINKER", parts: [("target", 5), ("x86_64-unknown-linux-gnu", 12), ("linker", 37)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU", parts: [("target", 5), ("x86_64-unknown-linux-gnu", 12)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_REGISTRY_INDEX", parts: [("registry", 5), ("index", 14)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_REGISTRIES_CRATES_IO_PROTOCOL", parts: [("registries", 5), ("crates-io", 16), ("protocol", 26)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_SOURCE", parts: [("source", 5)] }
+[2023-05-11T09:08:52Z TRACE cargo::util::config] get cv ConfigKey { env: "CARGO_PATCH", parts: [("patch", 5)] }
+[2023-05-11T09:08:52Z DEBUG cargo::core::registry] registering a patch for `ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git` with `example-lib`
+[2023-05-11T09:08:52Z DEBUG cargo::core::registry] load/missing  /home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib
+[2023-05-11T09:08:52Z DEBUG cargo::core::registry] loading source /home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib
+[2023-05-11T09:08:52Z DEBUG cargo::sources::config] loading: /home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib
+[2023-05-11T09:08:52Z TRACE cargo::core::source::source_id] loading SourceId; /home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib
+[2023-05-11T09:08:52Z TRACE cargo::ops::cargo_read_manifest] read_package; path=/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib/Cargo.toml; source-id=/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib
+[2023-05-11T09:08:52Z TRACE cargo::util::toml] read_manifest; path=/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib/Cargo.toml; source-id=/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib
+[2023-05-11T09:08:52Z DEBUG cargo::core::registry] patch summary is Summary { inner: Inner { package_id: PackageId { name: "example-lib", version: "0.1.0", source: "/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib" }, dependencies: [], features: {}, checksum: None, links: None } } should_unlock=None
+[2023-05-11T09:08:52Z DEBUG cargo::ops::resolve] avoid_patch_ids={}
+[2023-05-11T09:08:52Z DEBUG cargo::core::registry] locking patch Summary { inner: Inner { package_id: PackageId { name: "example-lib", version: "0.1.0", source: "/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib" }, dependencies: [], features: {}, checksum: None, links: None } }
+[2023-05-11T09:08:52Z TRACE cargo::core::registry] locking summary of example-lib v0.1.0 (/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib)
+[2023-05-11T09:08:52Z DEBUG cargo::core::registry] load/locked   /home/aleyshon/source/tcc-src/cargo-ssh-mre/example-bin
+[2023-05-11T09:08:52Z DEBUG cargo::core::registry] load/locked   /home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib
+[2023-05-11T09:08:52Z TRACE cargo::core::registry] locking summary of example-bin v0.1.0 (/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-bin)
+[2023-05-11T09:08:52Z TRACE cargo::core::registry]      example-lib/*/ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git
+[2023-05-11T09:08:52Z TRACE cargo::core::registry]      nope, unlocked
+[2023-05-11T09:08:52Z TRACE cargo::core::registry] locking summary of example-lib v0.1.0 (/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-lib)
+[2023-05-11T09:08:52Z DEBUG cargo::core::resolver] initial activation: example-bin v0.1.0 (/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-bin)
+[2023-05-11T09:08:52Z TRACE cargo::core::resolver] activating example-bin v0.1.0 (/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-bin)
+[2023-05-11T09:08:52Z DEBUG cargo::core::registry] found 1 patches with an unlocked dep on `example-lib` at ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git with `*`, looking at sources
+[2023-05-11T09:08:52Z DEBUG cargo::core::registry] load/missing  ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git
+[2023-05-11T09:08:52Z DEBUG cargo::core::registry] loading source ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git
+[2023-05-11T09:08:52Z DEBUG cargo::sources::config] loading: ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git
+[2023-05-11T09:08:52Z TRACE cargo::core::source::source_id] loading SourceId; ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git
+    Updating git repository `ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git`
+[2023-05-11T09:08:52Z TRACE cargo::sources::git::source] updating git source `GitRemote { url: Url { scheme: "ssh", cannot_be_a_base: false, username: "git", password: None, host: Some(Domain("github.com")), port: None, path: "/AdamLeyshon/cargo-mre-10467.git", query: None, fragment: None } }`
+[2023-05-11T09:08:52Z DEBUG cargo::sources::git::utils] attempting GitHub fast path for https://api.github.com/repos/AdamLeyshon/cargo-mre-10467/commits/HEAD
+[2023-05-11T09:08:52Z DEBUG cargo::sources::git::utils] skipping gc as there's only 0 pack files
+[2023-05-11T09:08:52Z DEBUG cargo::sources::git::utils] doing a fetch for ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git
+[2023-05-11T09:08:52Z DEBUG cargo::sources::git::utils] initiating fetch of ["+HEAD:refs/remotes/origin/HEAD"] from ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git
+[2023-05-11T09:08:53Z DEBUG cargo::sources::git::utils] fetch failed: error authenticating: no auth sock variable; class=Ssh (23)
+[2023-05-11T09:08:53Z DEBUG cargo] exit_with_error; err=CliError { error: Some(failed to get `example-lib` as a dependency of package `example-bin v0.1.0 (/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-bin)`
+
+    Caused by:
+        0: failed to load source for dependency `example-lib`
+        1: Unable to update ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git
+        2: failed to fetch into: /home/aleyshon/.cargo/git/db/cargo-mre-10467-cd8c94d9cdb533f4
+        3: failed to authenticate when downloading repository
+
+           * attempted ssh-agent authentication, but no usernames succeeded: `git`
+
+           if the git CLI succeeds then `net.git-fetch-with-cli` may help here
+           https://doc.rust-lang.org/cargo/reference/config.html#netgit-fetch-with-cli
+        4: error authenticating: no auth sock variable; class=Ssh (23)), exit_code: 101 }
+[2023-05-11T09:08:53Z DEBUG cargo] display_error; err=failed to get `example-lib` as a dependency of package `example-bin v0.1.0 (/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-bin)`
+
+    Caused by:
+        0: failed to load source for dependency `example-lib`
+        1: Unable to update ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git
+        2: failed to fetch into: /home/aleyshon/.cargo/git/db/cargo-mre-10467-cd8c94d9cdb533f4
+        3: failed to authenticate when downloading repository
+
+           * attempted ssh-agent authentication, but no usernames succeeded: `git`
+
+           if the git CLI succeeds then `net.git-fetch-with-cli` may help here
+           https://doc.rust-lang.org/cargo/reference/config.html#netgit-fetch-with-cli
+        4: error authenticating: no auth sock variable; class=Ssh (23)
+error: failed to get `example-lib` as a dependency of package `example-bin v0.1.0 (/home/aleyshon/source/tcc-src/cargo-ssh-mre/example-bin)`
+
+Caused by:
+  failed to load source for dependency `example-lib`
+
+Caused by:
+  Unable to update ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git
+
+Caused by:
+  failed to fetch into: /home/aleyshon/.cargo/git/db/cargo-mre-10467-cd8c94d9cdb533f4
+
+Caused by:
+  failed to authenticate when downloading repository
+
+  * attempted ssh-agent authentication, but no usernames succeeded: `git`
+
+  if the git CLI succeeds then `net.git-fetch-with-cli` may help here
+  https://doc.rust-lang.org/cargo/reference/config.html#netgit-fetch-with-cli
+
+Caused by:
+  error authenticating: no auth sock variable; class=Ssh (23)

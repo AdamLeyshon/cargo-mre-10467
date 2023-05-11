@@ -21,7 +21,9 @@ My `~/.gitconfig` file:
     name = Adam Leyshon
     email = aleyshon@thecodecache.net
 
-The output from `RUST_LOG=trace cargo build`
+The full output from `CARGO_LOG=trace cargo build` is in `trace.txt`
+
+The summary is:
 
     cargo build
     Updating git repository `ssh://git@github.com/AdamLeyshon/cargo-mre-10467.git`
